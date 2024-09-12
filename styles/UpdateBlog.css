@@ -1,0 +1,87 @@
+
+.update-blog-form {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.583);
+    margin-bottom: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-title {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.input-title,
+.input-description,
+.input-content {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input-title:focus,
+.input-description:focus,
+.input-content:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.input-content {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.submit-button {
+   width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+  transform: scale(1.02);
+}
+
+.submit-button:active {
+  background-color: #1e7e34;
+}
+
+@media (max-width: 768px) {
+  .update-blog-form {
+    padding: 15px;
+    margin: 10px auto;
+  }
+
+  .form-title {
+    font-size: 1.5em;
+  }
+
+  .input-title,
+  .input-description,
+  .input-content {
+    padding: 10px;
+    margin-bottom: 12px;
+  }
+
+  .submit-button {
+    padding: 10px;
+    font-size: 1em;
+  }
+}
